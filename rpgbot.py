@@ -3,7 +3,7 @@ import random
 import json
 import os
 
-TOKEN = '7753526794:AAHMllMFw3pKSexatUwM9skNJ6ZCAAdZCy8'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 DATA_FILE = 'rp_data.json'
