@@ -1,38 +1,22 @@
-# ⚔RPGBot
 
-RPGBot, bir rol yapma oyunu tarzında kullanıcılarla etkileşimde bulunarak onlara hikayeler ve görevler sunan bir Telegram botudur.
+#⚔ RPG Game Bot
 
-##  Özellikler
-- Kullanıcılar, farklı görevler ve karakterlerle RPG oyunları oynar.
-- Eğlenceli hikaye akışı ve etkileşimli bir oyun deneyimi.
-- Bot, kullanıcıların maceralarına yön verir.
+A Telegram bot that allows users to play a text-based RPG game.
 
-##  Kullanılan Teknolojiler
-- Python
-- Telebot (Telegram bot API)
-- random (rastgele görevler için)
+## Features
+- Character creation
+- Battle system
+- Inventory management
 
-##  Kurulum
+## Technologies Used
+- Python 3
+- Telegram Bot API
 
-1. Projeyi klonlayın:
+## Installation
 
-    ```bash
-    git clone https://github.com/havvakrbck1/rpgbot.git
-    cd rpgbot
-    ```
-
-2. Gerekli Python kütüphanelerini yükleyin:
-
-    ```bash
-    pip install pyTelegramBotAPI
-    ```
-
-3. `TOKEN` değişkenini, [Telegram BotFather](https://core.telegram.org/bots#botfather) üzerinden aldığınız token ile güncelleyin.
-
-4. Botu çalıştırın:
-
-    ```bash
-    python rpgbot.py
-    ```
-
+```bash
+git clone https://github.com/havvakrbck1/rpg-game-bot.git
+cd rpg-game-bot
+pip install -r requirements.txt
+python bot.py
 
